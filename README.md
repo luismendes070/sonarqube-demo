@@ -1,14 +1,18 @@
-# Basic Maven Example
+## unninstall JDK8u251 
+sonarqube 8 suport 
 
-This simple Maven project is importing JaCoCo's coverage report. For multi-module project example 
-see [multi-module Maven project](../maven-multimodule/README.md)
-        
-## Usage
+PS C:\WINDOWS\system32> cd
 
-* Build the project, execute all the tests and analyze the project with SonarQube Scanner for Maven(from root  of the project):
+PS C:\WINDOWS\system32> java -version
 
-        mvn clean verify sonar:sonar
-        
-## Documentation
+java version "1.8.0_251"
+Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
 
-[SonarScanner for Maven](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-maven/)
+PS C:\WINDOWS\system32> java -version
+
+openjdk version "11.0.7" 2020-04-14 LTS
+OpenJDK Runtime Environment 18.9 (build 11.0.7+10-LTS)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.7+10-LTS, mixed mode)
+
+PS C:\WINDOWS\system32>
